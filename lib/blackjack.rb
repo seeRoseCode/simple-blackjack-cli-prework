@@ -55,7 +55,6 @@ def runner
   until card > 21 do
   hit? (card)
   final_card_number = display_card_total (card)
-  return final_card_number
   end
   end_game
 end
