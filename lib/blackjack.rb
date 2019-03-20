@@ -49,12 +49,11 @@ end
 #####################################################
 
 def runner
-card = 0
 until card > 21 do
   welcome
-  initial_round
+  card = initial_round
   hit? (card)
-  display_card_total (x)
+  display_card_total (card)
 end
   end_game
 end
